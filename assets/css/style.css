@@ -1,23 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poller+One&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
-    background-color: #f6eddc;
+    background-color: #fcf0da;
     color: #457094;
     padding: 30px;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
     margin-bottom: 70px;
+    font-size: 13.5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(255, 252, 248);
+}
+
+header a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #457094;
+    font-family: "Montserrat", sans-serif;
+}
+
+header a:hover {
+    color: #264d6d;
+}
+
+header i {
+    padding: 7px;
+}
+
+header h2 {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+header h2:hover {
+    color: #264d6d;
 }
 
 .banner {
-    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
+
+img {
+    border-radius: 18px;
+    height: 330px;
+    width: 1000px;
+    border: 1px solid #457094;
+}
+
+img:hover {
+    transition: transform 0.4s ease, box-shadow 0.2s ease;
+    transform: scale(1.01);
+    box-shadow: rgb(67, 67, 67, 0.30) 0px 10px 20px, rgba(67, 67, 67, 0.30) 0px 6px 6px;
+}
+
+.titulo-home {
+    padding: 40px;
+    padding-bottom: 35px;
+    margin-left: 40px;
+}
+
+.titulo-home h2 {
+    font-size: 21px;
+}
+
+.titulo {
+    padding: 40px;
+    padding-bottom: 35px;
+    margin-left: 40px;
+}
+
+.titulo h2 {
+    padding-top: 50px;
+    font-size: 21px;
+}
+
+.descricao {
+    font-size: 14px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid #457094;
+    border-radius: 18px;
+    padding: 30px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 4px;
+}
+
+
+.descricao p {
+    font-weight: normal;
+    font-size: 19.5px;
+    
+}
+
+footer {
+    background-color: #fcf0da;
+    color: #457094;
+    text-align: center;
+    font-size: 15.5px;
+    padding: 50px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
