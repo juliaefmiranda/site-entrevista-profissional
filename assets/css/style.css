@@ -127,3 +127,24 @@ footer {
     margin-top: 80px;
     font-weight: bold;
 }
+
+.texto-normal {
+    font-size: 1.1rem;
+    padding-top: 40px;
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    border: 1px solid #457094;
+    border-radius: 20px;
+    color: #264d6d;
+    padding: 10px;
+}
+
+a:hover {
+    color: #fcf0da;
+    background-color: #264d6d;
+    transition: transform 0.4s ease;
+    transform: scale(1.01);
+}
