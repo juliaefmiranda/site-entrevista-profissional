@@ -27,7 +27,7 @@ body {
 }
 
 header a {
-    font-size: 21px;
+    font-size: 20px;
     text-decoration: none;
     color: #457094;
     font-family: "Montserrat", sans-serif;
@@ -56,14 +56,14 @@ header h2:hover {
     margin-bottom: 100px;
 }
 
-img {
+.imagem-banner {
     border-radius: 18px;
     height: 330px;
     width: 1000px;
     border: 1px solid #457094;
 }
 
-img:hover {
+.imagem-banner:hover {
     transition: transform 0.4s ease, box-shadow 0.2s ease;
     transform: scale(1.01);
     box-shadow: rgb(67, 67, 67, 0.30) 0px 10px 20px, rgba(67, 67, 67, 0.30) 0px 6px 6px;
@@ -76,17 +76,17 @@ img:hover {
 }
 
 .titulo-home h2 {
-    font-size: 21px;
+    font-size: 20px;
     margin-left: 35%;
 }
 
-.titulo {
+.titulo-psico {
     padding: 40px;
     padding-bottom: 35px;
 
 }
 
-.titulo h2 {
+.titulo-psico h2 {
     padding-top: 50px;
     font-size: 21px;
     margin-left: 35%;
@@ -142,9 +142,49 @@ footer a {
     padding: 10px;
 }
 
-a:hover {
+footer a:hover {
     color: #fcf0da;
     background-color: #264d6d;
     transition: transform 0.4s ease;
     transform: scale(1.01);
+}
+
+/* Página da biografia */
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.biografia {
+    font-size: 17px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 1px solid #457094;
+    border-radius: 18px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 4px;
+}
+
+.biografia:hover {
+    transition: transform 0.4s ease, box-shadow 0.2s ease;
+    transform: scale(1.01);
+    cursor: context-menu;
+}
+
+
+.foto-theresa {
+    border: 1px solid white;
+    border-radius: 18px;
+    width: 38rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 60px;
 }
