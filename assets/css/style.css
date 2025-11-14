@@ -35,6 +35,7 @@ header a {
 
 header a:hover {
     color: #264d6d;
+    border-bottom: 0.13rem solid #264d6d;
 }
 
 header i {
@@ -72,28 +73,31 @@ header h2:hover {
 .titulo-home {
     padding: 40px;
     padding-bottom: 35px;
-
+    text-align: center;
 }
 .titulo-home h2 {
     font-size: 20px;
-    margin-left: 35%;
+    border-bottom: 0.13rem solid #264d6d;
+    display: inline-block; 
 }
 .titulo-psico {
     padding: 40px;
     padding-bottom: 35px;
+    text-align: center;
 
 }
 .titulo-psico h2 {
     padding-top: 50px;
     font-size: 21px;
-    margin-left: 35%;
+    border-bottom: 0.13rem solid #264d6d;
+    display: inline-block; 
 }
 .descricao {
     max-width: 800px; 
     margin: 10px auto 18px auto; 
     padding: 30px;
     border-radius: 12px; 
-    border: 1px solid #A3C1AD; 
+    border-left: 0.25rem solid #457094;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
     text-align: justify; 
@@ -105,8 +109,7 @@ header h2:hover {
     line-height: 1.6;  
 }
 .descricao:hover {
-    border: 1px solid #98BBD6;
-    box-shadow: rgba(71, 140, 196, 0.2) 0px 8px 25px; 
+    box-shadow: rgba(77, 77, 77, 0.2) 0px 8px 25px; 
     transition: all 0.3s ease;
 }
 
@@ -151,14 +154,20 @@ footer a:hover {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+
+}
+
+.titulo p {
+    border-bottom: 0.13rem solid #264d6d;
 }
 
 .biografia {
     max-width: 990px;
     margin: 50px auto 30px auto;
     font-size: 17px;
-    border: 1px solid #457094;
+    border-left: 0.25rem solid #457094;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
     padding: 25px;
     display: flex;
     flex-direction: row;
@@ -168,8 +177,7 @@ footer a:hover {
 }
 
 .biografia:hover {
-    border: 1px solid #98BBD6;
-    box-shadow: rgba(71, 140, 196, 0.2) 0px 8px 25px; 
+    box-shadow: rgba(77, 77, 77, 0.2) 0px 8px 25px; 
     transition: all 0.3s ease;
 }
 
@@ -180,4 +188,83 @@ footer a:hover {
     height: 18rem;
     object-fit: cover;
     margin-right: 20px;
+}
+
+/* Página da Entrevista */
+
+.container-titulo {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.container-titulo h2 {
+    border-bottom: 0.13rem solid #264d6d;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.frase-destaque {
+    max-width: 990px;
+    margin: 50px auto 30px auto;
+    font-size: 20px;
+    border: 0.1rem solid #457094;
+    font-style: italic;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
+    padding: 25px;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.pergunta-resposta {
+    max-width: 990px;
+    margin: 50px auto 30px auto;
+    font-size: 17px;
+    border-left: 0.25rem solid #457094;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
+    padding: 25px;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.pergunta-resposta:hover {
+    box-shadow: rgba(77, 77, 77, 0.2) 0px 8px 25px; 
+    transition: all 0.3s ease;
+}
+
+.pergunta {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* Página de conclusão*/
+
+.conclusao {
+    text-align: center;
+}
+
+.titulo-conclusao {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 0.13rem solid #264d6d;
+    display: inline-block;
+}
+
+.concluir {
+    max-width: 990px;
+    margin: 50px auto 30px auto;
+    font-size: 17px;
+    border-left: 0.25rem solid #457094;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
+    padding: 25px;
+    display: block;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.concluir:hover {
+    box-shadow: rgba(77, 77, 77, 0.2) 0px 8px 25px; 
+    transition: all 0.3s ease;
 }
